@@ -307,7 +307,7 @@ void frac_init(char exp[SBUFF])
 {
     /* IFDEBUG("frac_init()"); */
     printf("-------------------\n");
-    printf("FRACTION CALCULATOR\nPlease entry the desired operation:\n");
+    printf("FRACTION CALCULATOR\nPlease entry the desired operation:\n(It is necessary to add a space between the fractions, like a/b + c/d)\n-> ");
     fgets(exp, SBUFF, stdin); /* expression input */
 
     return;
